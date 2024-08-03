@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        body {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  background-image:linear-gradient(rgba(132, 129, 129, 0.5),rgba(132, 129, 129, 0.5)) , url("restaurant.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+  nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  margin:'18px';
+  padding:'40px';
+  box-sizing:'border-circle';
+  border-radius:'400px';
+  box-shadow:'0 4px 9px blue';
+  background:'lavender'
+}
+.heading {
+  text-align: center;
+  font-size: 50px;
+  color: #1a1818;
+}
+footer{
+  background-color:burlywood;
+  color: #fff;
+  text-align:center;
+  margin-top: 40;
+  padding: 5px 0;
+}
+    .destinations{
+    font-size: 2.4rem;
+    font-family: "Dongle-bold";
+    margin: 40px 80px;
+    text-align: center;
+}
+.destinations h2{
+    margin-bottom: 40px;
+}
+.destination-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+}
+.destination-item img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+.destination-item{
+    text-align: left;
+}
+.destination-item h3{
+    font-size: 2rem;
+}
+.destination-item p{
+    font-size: 1.4rem;
+    line-height: 1;
+    font-family: "Dongle-regular";
+}
+
+    </style>
+  </head>
+  <body>
+    <center>
+      <h1 style="color: blue;">Ashu restaurant</h1>
+      <h1 style="color:black">About Our restaurant</h1>
+    </center>
+    <nav style="background-color: black;">
+      <ul style="text-align: right">
+        <li><a href="Home.html">Home </a></li>
+        <li><a href="Services.html">Services</a></li>
+        <li><a href="recipe.html">Recipes</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+              
+<section id="destinations" class="destinations">
+    <h2 onclick="">Icecreams</h2>
+    <div class="destination-grid">
+      <div class="destination-item">
+        <img src="restaurant.jpg" alt="" />
+      </div>
+      <div class="destination-item">
+        <img src="restaurant3.jpg" alt="" />
+      </div>
+      <div class="destination-item">
+        <img src="a1.jpg" alt="" />
+      </div>
+      <div class="destination-item">
+        <img src="a2.jpg" alt="" />
+        </div>
+        <div class="destination-item">
+          <img src="a3.jpeg" alt="" />
+    </div>
+    <div class="destination-item">
+        <img src="a4.webp" alt="" />
+  </div>
+  </section>
+    </div>
+</body>
+</html>

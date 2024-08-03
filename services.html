@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        body {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  background-image: linear-gradient(rgba(132, 129, 129, 0.5),rgba(132, 129, 129, 0.5)) , url("r6.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+        .destinations{
+    font-size: 2.4rem;
+    font-family: "Dongle-bold";
+    margin: 40px 80px;
+    text-align: center;
+}
+.destinations h2{
+    margin-bottom: 40px;
+}
+.destination-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+}
+.destination-item img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+.destination-item{
+    text-align: left;
+}
+.destination-item h3{
+    font-size: 2rem;
+}
+.destination-item p{
+    font-size: 1.4rem;
+    line-height: 1;
+    font-family: "Dongle-regular";
+}
+button{
+  border:50px;
+  background-color: brown;
+  color:bisque;
+  cursor: pointer;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0px;
+  padding-left: 0px;
+}
+nav {
+  color: #fff;
+  padding: 10px;
+  position: relative;
+}
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+a:hover {
+  color: red;
+}
+.submainheading {
+  font-size: 100px;
+  margin-top: 10px;
+  color: #241e1e;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  margin:'18px';
+  padding:'40px';
+  box-sizing:'border-circle';
+  border-radius:'400px';
+  box-shadow:'0 4px 9px blue';
+  background:'lavender'
+}
+.heading {
+  text-align: center;
+  font-size: 50px;
+  color: #1a1818;
+}
+footer{
+  background-color: burlywood;
+  color: #fff;
+  text-align:center;
+  margin-top: 40;
+  padding: 5px 0;
+  font-size: x-large;
+}
+</style>
+</head>
+<body>
+  <center>
+  <h1 class="mainheading">Ashu Restaurant</h1></center>
+  <div>
+    <nav style="background-color: black;">
+        <ul style="text-align: right">
+          <li><a href="Home.html">Home </a></li>
+          <li><a href="Services.html">Services</a></li>
+          <li><a href="recipe.html">Recipes</a></li>
+          <li><a href="About.html">About</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+         
+<section id="destinations" class="destinations">
+  <h3 onclick="">Catering</h3>
+  <div class="destination-grid">
+    <div class="destination-item">
+      <img src="c1.webp" alt="" />
+    </div>
+    <div class="destination-item">
+      <img src="c2.png" alt="" />
+      
+    </div>
+    <div class="destination-item">
+      <img src="catering.jpg" alt="" />
+      
+    </div>
+    </section>
+    <center>
+      <p style="color: beige; font-size: 30px">
+        "Plate by plate, we're crafting memories that linger longer than the
+        taste of our delectable dishes.
+        Experience catering that touches more than just your plate ❤️🍴."
+      </p></center>
+    <footer>
+      <marquee><p>&copy;2024 Ashu Web Project.All rights reserved@Aswani</p></marquee>
+   </footer>
+    
+</body>
+</html>
+

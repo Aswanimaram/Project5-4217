@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        body {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  background-image: linear-gradient(rgba(132, 129, 129, 0.5),rgba(132, 129, 129, 0.5)) ,url("r6.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+        .destinations{
+    font-size: 2.4rem;
+    font-family: "Dongle-bold";
+    margin: 40px 80px;
+    text-align: center;
+}
+.destinations h2{
+    margin-bottom: 40px;
+}
+.destination-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+}
+.destination-item img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+.destination-item{
+    text-align: left;
+}
+.destination-item h3{
+    font-size: 2rem;
+}
+.destination-item p{
+    font-size: 1.4rem;
+    line-height: 1;
+    font-family: "Dongle-regular";
+}
+button{
+  border:50px;
+  background-color: brown;
+  color:bisque;
+  cursor: pointer;
+}
+
+    </style>
+  </head>
+  <body>
+    <a href="Home.html"><button type="button">Back</button></a>
+    <center><h1 class="mainheading">Ashu Restaurant</h1></center>
+    <div>
+           
+<section id="destinations" class="destinations">
+    <h2 onclick="">Icecreams</h2>
+    <div class="destination-grid">
+      <div class="destination-item">
+        <img src="ice1.jpeg" alt="" />
+        <h4>Chocolate Icecream</h4>
+      </div>
+      <div class="destination-item">
+        <img src="ice2.jpg" alt="" />
+        <h3>Blue Berry</h3>
+      </div>
+      <div class="destination-item">
+        <img src="ice3.jpeg" alt="" />
+        <h3>Black Berry</h3>
+      </div>
+      <div class="destination-item">
+        <img src="ice4.jpg" alt="" />
+        <h3>Butter Scotch</h3>
+        </div>
+        <div class="destination-item">
+          <img src="ice5.jpeg" alt="" />
+          <h3>Straw Berry</h3>
+    </div>
+    <div class="destination-item">
+        <img src="ice6.png" alt="" />
+        <h3>Straw Berry</h3>
+  </div>
+  </section>
+    </div>
+  </body>
+</html>
